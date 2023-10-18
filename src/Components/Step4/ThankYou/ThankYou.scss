@@ -1,0 +1,15 @@
+$color_1: hsl(213, 96%, 18%);
+$color_2: hsl(231, 11%, 63%);
+
+.thank-you {
+	align-items: center;
+}
+.thank-you-title {
+	font-size: 32px;
+	color: $color_1;
+	font-weight: 700;
+}
+.thank-you-description {
+	text-align: center;
+	color: $color_2;
+}

@@ -1,0 +1,37 @@
+.toggle-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(217, 100%, 97%);
+  gap: 10px;
+  padding: 10px 0px;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background-color: hsl(213, 96%, 18%);
+  outline: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.toggle::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.2s;
+}
+.toggle:checked::before {
+  transform: translateX(100%);
+}/*# sourceMappingURL=Toggle.css.map */

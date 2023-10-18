@@ -1,0 +1,27 @@
+$color_1: hsl(213, 96%, 18%);
+$border-color_1: hsl(231, 11%, 63%);
+
+.input-component {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.input {
+	height: 45px;
+	border: 1px solid hsl(229, 24%, 87%);
+	border-radius: 8px;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 10px;
+	&:hover {
+		border-color: $border-color_1;
+	}
+}
+.label {
+	color: $color_1;
+	font-size: 14px;
+}
+.labels {
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+$color_1: hsl(213, 96%, 18%);
+$color_2: hsl(231, 11%, 63%);
+
+.title-component {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-bottom: 20px;
+}
+.title-component-header {
+	font-size: 36px;
+	color: $color_1;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.title-component-description {
+	color: $color_2;
+	font-size: 16px;
+}

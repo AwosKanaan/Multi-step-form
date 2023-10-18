@@ -1,0 +1,82 @@
+.admin-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.admin-logout-button {
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.admin-logout-button:hover {
+  background-color: #c62828;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.admin-table th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.admin-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.admin-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.admin-input {
+  width: 250px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.admin-login-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px 0;
+}
+.admin-login-button:hover {
+  background-color: #0056b3;
+}
+
+.admin-skip-button {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.container-for-buttons {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}/*# sourceMappingURL=AdminDashboard.css.map */

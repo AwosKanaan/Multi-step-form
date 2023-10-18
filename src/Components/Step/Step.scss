@@ -1,0 +1,45 @@
+$color_1: white;
+$color_2: hsl(213, 96%, 18%);
+$color_3: hsl(231, 11%, 63%);
+$color_4: hsl(217, 100%, 97%);
+$background-color_1: transparent;
+$background-color_2: hsl(228, 100%, 84%);
+
+.container-for-step {
+	display: flex;
+	gap: 20px;
+	width: 230px;
+	height: 50px;
+	align-items: center;
+}
+.step-number {
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	text-align: center;
+	background-color: $background-color_1;
+	border: 1px solid white;
+	border-radius: 50%;
+	color: $color_1;
+}
+.active-step {
+	background-color: $background-color_2;
+	color: $color_2;
+}
+.step-body {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.step-title {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: $color_3;
+}
+.step-text {
+	text-transform: uppercase;
+	color: $color_4;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+}

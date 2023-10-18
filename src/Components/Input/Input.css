@@ -1,0 +1,27 @@
+.input-component {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input {
+  height: 45px;
+  border: 1px solid hsl(229, 24%, 87%);
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 10px;
+}
+.input:hover {
+  border-color: hsl(231, 11%, 63%);
+}
+
+.label {
+  color: hsl(213, 96%, 18%);
+  font-size: 14px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=Input.css.map */

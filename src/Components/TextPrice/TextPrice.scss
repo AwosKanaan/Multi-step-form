@@ -1,0 +1,30 @@
+$color_1: hsl(213, 96%, 18%);
+$color_2: hsl(231, 11%, 63%);
+$font-family_1: "Ubuntu", sans-serif;
+
+.add-on-left {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.add-on-left-checkbox {
+	width: 18px;
+	height: 18px;
+	&:checked {
+		.container-for-add-on-left-type-desc {
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+		}
+	}
+}
+.add-on-left-type {
+	color: $color_1;
+	font-weight: 700;
+	font-size: 13px;
+	font-family: $font-family_1;
+}
+.add-on-left-desc {
+	font-size: 12px;
+	color: $color_2;
+}

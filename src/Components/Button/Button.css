@@ -1,0 +1,31 @@
+.next-btn {
+  width: 105px;
+  height: 40px;
+  border-style: hidden;
+  border-radius: 7px;
+  background-color: hsl(213, 96%, 18%);
+  color: white;
+  cursor: pointer;
+}
+.next-btn:hover {
+  background-color: hsl(213, 96%, 30%);
+}
+
+.go-back-btn {
+  background-color: transparent;
+  color: hsl(231, 11%, 63%);
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.go-back-btn:hover {
+  color: hsl(213, 96%, 18%);
+}
+
+.confirm-btn {
+  background-color: hsl(243, 100%, 62%);
+}
+.confirm-btn:hover {
+  background-color: hsl(243, 100%, 72%);
+}/*# sourceMappingURL=Button.css.map */

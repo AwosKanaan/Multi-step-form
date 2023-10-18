@@ -1,0 +1,38 @@
+$color_1: white;
+$color_2: hsl(231, 11%, 63%);
+$color_3: hsl(213, 96%, 18%);
+$background-color_1: hsl(213, 96%, 18%);
+$background-color_2: hsl(213, 96%, 30%);
+$background-color_3: transparent;
+$background-color_4: hsl(243, 100%, 62%);
+$background-color_5: hsl(243, 100%, 72%);
+
+.next-btn {
+	width: 105px;
+	height: 40px;
+	border-style: hidden;
+	border-radius: 7px;
+	background-color: $background-color_1;
+	color: $color_1;
+	cursor: pointer;
+	&:hover {
+		background-color: $background-color_2;
+	}
+}
+.go-back-btn {
+	background-color: $background-color_3;
+	color: $color_2;
+	cursor: pointer;
+	border: none;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	&:hover {
+		color: $color_3;
+	}
+}
+.confirm-btn {
+	background-color: $background-color_4;
+	&:hover {
+		background-color: $background-color_5;
+	}
+}

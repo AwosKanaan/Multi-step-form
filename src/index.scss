@@ -1,0 +1,109 @@
+$color_1: hsl(354, 84%, 57%);
+$font-family_1: "Ubuntu", sans-serif;
+$background-color_1: hsl(217, 100%, 97%);
+$background-color_2: white;
+$background-color_3: hsl(231, 100%, 99%);
+$border-color_1: hsl(243, 100%, 62%);
+$border-color_2: hsl(213, 96%, 18%);
+
+/* Step 3 */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-family_1;
+  background-color: $background-color_1;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: $background-color_2;
+}
+.text-price {
+  display: flex;
+  justify-content: space-between;
+}
+.required {
+  color: $color_1;
+  font-weight: 500;
+  font-size: 14px;
+}
+.selected-card {
+  border-color: $border-color_1;
+  background-color: $background-color_3;
+}
+.selected-add-on {
+  border-color: $border-color_2;
+  background-color: $background-color_3;
+}
+.admin-login {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+@media (max-width: 767px) {
+  body {
+    display: block;
+  }
+  .wrapper {
+    background-color: $background-color_1;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+    .container-for-sidebar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 220px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(../assets/images/bg-sidebar-mobile.svg);
+      .sidebar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        gap: 0;
+        height: auto;
+        width: 60%;
+        transform: translateY(-40%);
+        .step-body {
+          display: none;
+        }
+      }
+    }
+    .container-for-tabs {
+      transform: translateY(-10%);
+      background-color: $background-color_2;
+      width: 90%;
+      height: 100%;
+      padding: 20px;
+      border-radius: 12px;
+      .title-component-header {
+        font-size: 24px;
+      }
+      .cards-container {
+        flex-direction: column;
+        width: 100%;
+        .card {
+          flex-direction: row;
+          justify-content: flex-start;
+          gap: 10px;
+          height: 100px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

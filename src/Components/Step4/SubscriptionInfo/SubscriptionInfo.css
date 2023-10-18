@@ -1,0 +1,41 @@
+.subscription-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.subscription-info-price {
+  color: hsl(213, 96%, 18%);
+  font-weight: bold;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.type p {
+  color: hsl(213, 96%, 18%);
+  font-weight: 700;
+}
+
+.btn-type {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 20px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0;
+  margin: 0;
+  color: hsl(231, 11%, 63%);
+}
+.btn-type:hover {
+  color: hsl(243, 100%, 62%);
+  border-bottom: 1px solid hsl(243, 100%, 62%);
+}/*# sourceMappingURL=SubscriptionInfo.css.map */

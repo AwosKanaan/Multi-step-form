@@ -1,0 +1,14 @@
+.thank-you {
+  align-items: center;
+}
+
+.thank-you-title {
+  font-size: 32px;
+  color: hsl(213, 96%, 18%);
+  font-weight: 700;
+}
+
+.thank-you-description {
+  text-align: center;
+  color: hsl(231, 11%, 63%);
+}/*# sourceMappingURL=ThankYou.css.map */

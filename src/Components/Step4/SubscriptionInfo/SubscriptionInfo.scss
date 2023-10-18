@@ -1,0 +1,40 @@
+$color_1: hsl(213, 96%, 18%);
+$color_2: hsl(231, 11%, 63%);
+$color_3: hsl(243, 100%, 62%);
+$background-color_1: transparent;
+
+.subscription-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.subscription-info-price {
+  color: $color_1;
+  font-weight: bold;
+}
+.type {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  p {
+    color: $color_1;
+    font-weight: 700;
+  }
+}
+.btn-type {
+  width: fit-content;
+  height: 20px;
+  outline: none;
+  border: none;
+  background-color: $background-color_1;
+  cursor: pointer;
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  color: $color_2;
+  &:hover {
+    color: $color_3;
+    border-bottom: 1px solid hsl(243, 100%, 62%);
+  }
+}

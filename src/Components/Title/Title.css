@@ -1,0 +1,18 @@
+.title-component {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.title-component-header {
+  font-size: 36px;
+  color: hsl(213, 96%, 18%);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.title-component-description {
+  color: hsl(231, 11%, 63%);
+  font-size: 16px;
+}/*# sourceMappingURL=Title.css.map */

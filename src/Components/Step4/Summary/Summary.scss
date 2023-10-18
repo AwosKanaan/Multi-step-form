@@ -1,0 +1,17 @@
+$background-color_1: hsl(217, 100%, 97%);
+
+.container-for-finish {
+  background-color: $background-color_1;
+  padding: 20px;
+  border-radius: 8px;
+}
+.container-for-add-ons-finish {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.add-on-left-type-v2 {
+  color: hsl(231, 11%, 63%);
+}

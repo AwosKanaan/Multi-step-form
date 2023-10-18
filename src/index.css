@@ -1,0 +1,109 @@
+/* Step 3 */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  background-color: hsl(217, 100%, 97%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: white;
+}
+
+.text-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.required {
+  color: hsl(354, 84%, 57%);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.selected-card {
+  border-color: hsl(243, 100%, 62%);
+  background-color: hsl(231, 100%, 99%);
+}
+
+.selected-add-on {
+  border-color: hsl(213, 96%, 18%);
+  background-color: hsl(231, 100%, 99%);
+}
+
+.admin-login {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media (max-width: 767px) {
+  body {
+    display: block;
+  }
+  .wrapper {
+    background-color: hsl(217, 100%, 97%);
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+  }
+  .wrapper .container-for-sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/images/bg-sidebar-mobile.svg);
+  }
+  .wrapper .container-for-sidebar .sidebar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 0;
+    height: auto;
+    width: 60%;
+    transform: translateY(-40%);
+  }
+  .wrapper .container-for-sidebar .sidebar .step-body {
+    display: none;
+  }
+  .wrapper .container-for-tabs {
+    transform: translateY(-10%);
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  .wrapper .container-for-tabs .title-component-header {
+    font-size: 24px;
+  }
+  .wrapper .container-for-tabs .cards-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .wrapper .container-for-tabs .cards-container .card {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    height: 100px;
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.css.map */
